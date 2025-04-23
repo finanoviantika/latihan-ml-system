@@ -9,7 +9,7 @@ on:
       - main
 
 env:
-  CSV_URL: "Latihan_CI/MLproject/train_pca.csv"
+  CSV_URL: "MLproject/train_pca.csv"
 
 jobs:
   build:
@@ -39,7 +39,7 @@ jobs:
       #Run as a mlflow
       - name: Run mlflow project
         run: |
-          mlflow run Latihan_CI/MLproject --env-manager=local
+          mlflow run MLproject --env-manager=local
 
       #Save models to GITHUB Repository
       - name: Save mlruns to repo
