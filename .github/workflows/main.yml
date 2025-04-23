@@ -44,8 +44,8 @@ jobs:
       #Save models to GITHUB Repository
       - name: Save mlruns to repo
         run: |
-          git config --global user.name ${{ secrets.USERNAME }}
-          git config --global user.email ${{ secrets.EMAIL }}
+          git config --global user.name "${{ secrets.USERNAME }}"
+          git config --global user.email "${{ secrets.EMAIL }}"
           git remote set-url origin https://x-access-token:${{ secrets.PAT_REPO_SCOPE }}@github.com/finanoviantika/latihan-ml-system.git
           git add mlruns/
           git commit -m "Save mlruns from CI run"
