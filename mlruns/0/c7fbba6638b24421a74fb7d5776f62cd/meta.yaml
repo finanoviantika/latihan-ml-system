@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c7fbba6638b24421a74fb7d5776f62cd/artifacts
+end_time: 1746438089967
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c7fbba6638b24421a74fb7d5776f62cd
+run_name: upset-hound-924
+run_uuid: c7fbba6638b24421a74fb7d5776f62cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746437944784
+status: 3
+tags: []
+user_id: runner
