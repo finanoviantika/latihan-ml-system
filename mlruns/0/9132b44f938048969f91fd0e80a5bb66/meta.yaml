@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/9132b44f938048969f91fd0e80a5bb66/artifacts
+end_time: 1746419308683
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9132b44f938048969f91fd0e80a5bb66
+run_name: auspicious-lynx-903
+run_uuid: 9132b44f938048969f91fd0e80a5bb66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746419164622
+status: 3
+tags: []
+user_id: runner
