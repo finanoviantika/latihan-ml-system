@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/22d2107612cc4b448eb0bc4956eb697d/artifacts
+end_time: 1746417100567
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 22d2107612cc4b448eb0bc4956eb697d
+run_name: unequaled-mule-691
+run_uuid: 22d2107612cc4b448eb0bc4956eb697d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746416954256
+status: 3
+tags: []
+user_id: runner
