@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/cf29c2ba2dd649c3b963bb5627662254/artifacts
+end_time: 1746418135576
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cf29c2ba2dd649c3b963bb5627662254
+run_name: suave-dolphin-153
+run_uuid: cf29c2ba2dd649c3b963bb5627662254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746417991609
+status: 3
+tags: []
+user_id: runner
