@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/121cff4d8c644bd8994e3f7a17e12879/artifacts
+end_time: 1746436377634
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 121cff4d8c644bd8994e3f7a17e12879
+run_name: dapper-goat-886
+run_uuid: 121cff4d8c644bd8994e3f7a17e12879
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746436232779
+status: 3
+tags: []
+user_id: runner
