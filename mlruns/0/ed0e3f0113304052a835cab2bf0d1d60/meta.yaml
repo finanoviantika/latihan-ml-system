@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ed0e3f0113304052a835cab2bf0d1d60/artifacts
+end_time: 1746437002356
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed0e3f0113304052a835cab2bf0d1d60
+run_name: gifted-swan-70
+run_uuid: ed0e3f0113304052a835cab2bf0d1d60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1746436853097
+status: 3
+tags: []
+user_id: runner
