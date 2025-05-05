@@ -34,11 +34,12 @@ jobs:
           python -m pip install --upgrade pip
           pip install mlflow
 
+      - name: Set MLflow tracking URI
+        run: echo "MLFLOW_TRACKING_URI=file://$GITHUB_WORKSPACE/latihan_integrasi/mlruns" >> $GITHUB_ENV
+
       - name: Run MLflow project from latihan_integrasi/MLproject_
         run: |
           mlflow run latihan_integrasi/MLproject_ --env-manager=local
-        env:
-          MLFLOW_TRACKING_URI: file://$(pwd)/latihan_integrasi/mlruns
 
       - name: Get latest MLflow run_id
         run: |
@@ -48,7 +49,6 @@ jobs:
 
       - name: Build Docker Model
         run: |
-          MLFLOW_TRACKING_URI=file://$(pwd)/latihan_integrasi/mlruns \
           mlflow models build-docker --model-uri "runs:/$RUN_ID/model" --name "cc"
 
       - name: Log in to Docker Hub
