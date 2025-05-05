@@ -37,6 +37,8 @@ jobs:
       - name: Run MLflow project from latihan_integrasi/MLproject_
         run: |
           mlflow run latihan_integrasi/MLproject_ --env-manager=local
+        env:
+          MLFLOW_TRACKING_URI: file://$(pwd)/latihan_integrasi/mlruns
 
       - name: Get latest MLflow run_id
         run: |
